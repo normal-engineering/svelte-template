@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	server: {
-		allowedHosts: "seal-app-626jf.ondigitalocean.app",
+		allowedHosts: ['seal-app-626jf.ondigitalocean.app'],
 		host: '0.0.0.0',
 		port: 8080
 	},
